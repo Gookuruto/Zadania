@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.5)  30 JUN 2023 17:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.5)  30 JUN 2023 18:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -290,28 +290,28 @@ LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <8> not available
 
 {c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5]
  [6] [7] [8] [9]
-[10] [11] [12] [13] (./podstawy_zadania.aux) ) 
+[10] [11] [12] [13] [14] (./podstawy_zadania.aux) ) 
 Here is how much of TeX's memory you used:
- 6154 strings out of 474971
- 91025 string characters out of 5780121
- 897251 words of memory out of 5000000
- 27612 multiletter control sequences out of 15000+600000
+ 6156 strings out of 474971
+ 91044 string characters out of 5780121
+ 917251 words of memory out of 5000000
+ 27614 multiletter control sequences out of 15000+600000
  478205 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,6n,62p,294b,1790s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/texlive/2022/texmf-dist/fonts
-/enc/dvips/cm-super/cm-super-t1.enc}<c:/texlive/2022/texmf-dist/fonts/type1/pub
-lic/cm-super/sfbx1440.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-sup
-er/sfit0800.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm080
-0.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/
-texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/20
-22/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2022/texmf-d
-ist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2022/texmf-dist/fonts/
-type1/public/cm-super/sftt0800.pfb>
-Output written on podstawy_zadania.pdf (13 pages, 205862 bytes).
+ 55i,6n,62p,294b,1797s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{c:/texlive/2022/texmf-dist/
+fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/texlive/2022/texmf-dist/fonts/type
+1/public/cm-super/sfbx1440.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/c
+m-super/sfit0800.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sf
+rm0800.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb
+><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texli
+ve/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2022/te
+xmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2022/texmf-dist/f
+onts/type1/public/cm-super/sftt0800.pfb>
+Output written on podstawy_zadania.pdf (14 pages, 206167 bytes).
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
+ 91 PDF objects out of 1000 (max. 8388607)
+ 58 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
