@@ -1,0 +1,1320 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[polish]{babel}
+\usepackage{amsmath}
+%\usepackage{amssymb}
+%\topmargin -2cm
+%\textheight 23cm
+%\oddsidemargin -1cm
+%\evensidemargin -1cm
+%\textwidth 17.5cm
+\usepackage[lmargin=1cm,rmargin=1.5cm,tmargin=1cm,bmargin=1cm]{geometry}
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{listings,lstautogobble}
+
+\lstset{language=Python,
+	basicstyle=\scriptsize\ttfamily,
+	stringstyle=\ttfamily,
+	numbers=left,
+	stepnumber=1,
+	showstringspaces=false,
+	tabsize=1,
+	breaklines=true,
+	breakatwhitespace=false,
+	showstringspaces=false,
+	breaklines=true,
+	frameround=ffff,
+	frame=single,
+	autogobble=true
+}
+
+\title{Zadania podstawy pythona}
+\author{Maciej Puchała}
+
+\begin{document}
+	
+	\maketitle
+	\medskip
+	\begin{Large}
+		\textbf{Funkcja print()}
+	\end{Large}
+	
+	\begin{enumerate}
+		
+		\item
+		\begin{Large}
+			Zadanie 1.
+		\end{Large}
+		\par
+		Napisz program wypisujący dowolne dwa komunikaty na ekranie.
+		
+		
+		\item
+		\begin{Large}
+			Zadanie 2.
+		\end{Large}
+		\par
+		Przypisz tekst "Hello World!" do zmiennej my\_text oraz wypisz ja na ekranie.
+		\begin{lstlisting}[language=Python]		
+			my_text=""
+			print(my_text)
+		\end{lstlisting}
+		
+		\par
+		\item 
+		\begin{Large}
+			Zadanie 3.
+		\end{Large}
+		\par
+		Funkcja print() może przyjmować wiele argumentów rożnego typu. 
+		Przetestuj jej możliwość podając wiele argumentów rożnych typów np. tekst, liczby itp.
+		
+		\medskip
+		\begin{Large}
+			\textbf{Zmienne}
+		\end{Large}
+		\par
+		\item 
+		\begin{Large}
+			Zadanie 4.
+		\end{Large}
+	\par
+	Przypisz do zmiennej glass\_of\_water wartość 3.
+	\begin{lstlisting}[language=Python]
+		glass_of_water=
+		
+		print("I drank", glass_of_water, "glasses of water today.")
+	\end{lstlisting}
+
+	\par
+	\item 
+	\begin{Large}
+		Zadanie 5.
+	\end{Large}
+	\par
+	Zobacz co sie stanie gdy do naszej zmiennej glass\_of\_water przypiszemy nową wartość.
+	\begin{lstlisting}[language=Python]
+		#Fill the print function so it prints glass_of_water
+		
+		glass_of_water=3
+		
+		glass_of_water=glass_of_water + 1
+		
+		
+		print()
+	\end{lstlisting}
+	\medskip
+	\begin{Large}
+		\textbf{Typy danych}
+	\end{Large}
+	\par
+	
+	\item 
+	\begin{Large}
+		Zadanie 6.
+	\end{Large}
+	\par
+	Sprawdźmy różne typy danych dostępne w pythonie.
+	\par
+	\bigskip
+	a) stwórz zmienną z liczbą całkowita. Następnie wypisz ja na ekranie razem z jej typem(użyj funkcji type())
+	\par
+	\bigskip
+	b) stwórz zmienną z liczbą zmiennoprzecinkową np. zaokrągloną liczbą PI. Następnie wypisz ja na ekranie razem z jej typem(użyj funkcji type())
+	\par
+	\bigskip
+	c) stwórz zmienną z tekstem. Następnie wypisz ja na ekranie razem z jej typem(użyj funkcji type())
+	\par
+	\bigskip
+	d) do jednej z stworzonych zmiennych przypisz wartość innego typu i zobacz co się stanie.
+	\par
+	\bigskip
+	e)stwórz zmienną z wartościa logiczną. Następnie wypisz ja na ekranie razem z jej typem(użyj funkcji type())
+	\begin{lstlisting}[language=Python]
+		#Assign True or False to the variable below then print it.
+		
+		staying_alive=
+		print(staying_alive)
+		
+	\end{lstlisting}
+
+	\medskip
+	\begin{Large}
+		\textbf{Konwersja typów}
+	\end{Large}
+	\item
+	\begin{Large}
+		Zadanie 7.
+	\end{Large} 
+	\par
+	Przekonwertuj tekst(string) na liczbę całkowitą(int).
+	\begin{lstlisting}[language=Python]
+		#my_grade variable is a string (because it's in quotes). On line 9, convert it to an integer.
+		
+		my_grade="10"
+		
+		answer_5=
+		
+		
+		print(answer_5)
+	\end{lstlisting}
+
+	\item
+	\begin{Large}
+		Zadanie 8.
+	\end{Large} 
+	\par
+	Przekonwertuj liczbe zmiennoprzecinkową(float) na liczbę całkowitą(int).
+	\begin{lstlisting}[language=Python]
+	#my_temp variable is a float (because it has decimals). convert it to an integer.
+	
+	my_temp=97.70
+	
+	answer_6=
+	
+	
+	print(answer_6)
+	\end{lstlisting}
+
+		\item
+	\begin{Large}
+		Zadanie 9.
+	\end{Large} 
+	\par
+	Przekonwertuj liczbę zmiennoprzecinkową(float) na tekst(string).
+	\begin{lstlisting}[language=Python]
+		#my_temp variable is a float (because it has decimals). convert it to an integer.
+		
+		my_temp=97.70
+		
+		answer_6=
+		
+		
+		print(answer_6)
+	\end{lstlisting}
+
+\medskip
+\begin{Large}
+	\textbf{Operatory}
+\end{Large}
+
+	\item 
+	\begin{Large}
+		Zadanie
+	\end{Large}
+	\par
+	Operator przypisania. Przypisz do zmiennej lst liste kolorów ["red","green","blue"]
+	\begin{lstlisting}
+		
+		lst=
+		
+		
+		print(lst)
+		
+	\end{lstlisting}
+
+	\item 
+	\begin{Large}
+		Zadanie
+	\end{Large}
+	\par
+	Operator dzielenia. Przypisz wynik dzielnia zmiennej a przez zmieną b do zmiennej result.
+	\begin{lstlisting}
+		a=10
+		b=3
+		
+		
+		result=
+		
+		
+		print(result)
+		
+	\end{lstlisting}
+
+	\item 
+	\begin{Large}
+		Zadanie
+	\end{Large}
+	\par
+	Operator przypisania z dodawaniem +=. Za pomocą operatora "+=" dodaj wartość 100 do zmiennej "speed".
+	\begin{lstlisting}
+		speed=750
+			
+		
+		
+		print(speed)
+		
+	\end{lstlisting}
+
+	\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Operator modulo(reszta z dzielnia) \%. Za pomocą operatora modulo przypisz reszte z dzielenia 1000/400 do zmiennej "remainder".
+\begin{lstlisting}
+	remainder=
+	
+	
+	
+	
+	print(remainder)
+	
+\end{lstlisting}
+
+	\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Operator potęgowania **. Za pomocą operatora potęgowania przypisz do zmiennej p\_result kwadrat liczby 11111
+\begin{lstlisting}
+	p_result=
+	
+	
+	
+	
+	
+	print(p_result)
+	
+	
+\end{lstlisting}
+
+	\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Operator porównania ==. Za pomocą operatora porównania sprawdź czy wartośc zmiennej "a" jest rowna zmiennej "b"
+\begin{lstlisting}
+	a = 450
+	b = 500
+	
+	is_equal = 
+	
+	print(is_equal)
+	
+	
+\end{lstlisting}
+
+\medskip
+\begin{Large}
+	\textbf{Operacje na napisach}
+\end{Large}
+
+	\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Do zmiennej napis przypisz wartość "It's always darkest before dawn."
+\begin{lstlisting}
+	napis=""
+	
+	print(napis)
+	
+	
+\end{lstlisting}
+
+	\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Uzywając pierwszej, drugiego i ostatniego znaku napisu ze zmiennej napis stwórz nowy napis.
+\begin{lstlisting}
+	napis="It's always darkest before dawn."
+	
+	#Type your answer here.
+	
+	ans_1=
+	
+	print(ans_1)
+	
+	
+\end{lstlisting}
+
+	\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Zamień znak "." na znak "!"
+\begin{lstlisting}
+	napis="It's always darkest before dawn."
+	
+	#Type your code here.
+	
+	
+	
+	print(napis)
+	
+	
+\end{lstlisting}
+
+	\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Nadpisz zmienną napis do samej siebie tak aby wszytskie znaki były małymi literami.
+\begin{lstlisting}
+	napis="EVERY Strike Brings Me Closer to the Next Home run."
+	# Type your code here.
+	
+	
+	
+	
+	print(napis)
+\end{lstlisting}
+
+	\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Nadpisz zmienną napis do samej siebie tak aby wszytskie znaki były WIELKIMI literami.
+\begin{lstlisting}
+	napis="don't stop me now."
+	# Type your code here.
+	
+	
+	
+	print(napis)
+\end{lstlisting}
+
+	\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Czy napis zaczyna sie od litery "A"?\\
+przypisz wartość logiczną odpowiedzi do zmiennej ans\_1.
+\begin{lstlisting}
+	napis="There are no traffic jams along the extra mile."
+	#  Type your code here.
+	
+	ans_1=
+	
+	
+	print(ans_1)
+\end{lstlisting}
+
+	\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Czy napis kończy się "."?\\
+przypisz wartość logiczną odpowiedzi do zmiennej ans\_1.
+\begin{lstlisting}
+	napis="There are no traffic jams along the extra mile."
+	#  Type your code here.
+	
+	
+	ans_1=
+	
+	
+	print(ans_1)
+\end{lstlisting}
+
+
+	\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+a) używając metody .index(), znajdź indeks na którym znajduje się znak "v".
+\begin{lstlisting}
+	napis="The best revenge is massive success."
+	
+	#  Type your code here.
+	
+	ans_1=
+	
+	
+	print(ans_1)
+\end{lstlisting}
+\par
+b) Używając metody .find() znajdź indeks na którym znajduje się znak "m".
+\begin{lstlisting}
+	napis="The best revenge is massive success."
+	
+	#  Type your code here.
+	
+	ans_1=
+	
+	
+	print(ans_1)
+\end{lstlisting}
+\par
+c) Jaka jest różnica między tymi dwoma metodami?(spróbujcie znaleźć znak którego nie ma w napisie)
+
+	\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Który znak występuje częściej w napisie? "a" czy "o"?
+\begin{lstlisting}
+	napis="People often say that motivation doesn't last. Well, neither does bathing.  That's why we recommend it daily."
+	#  Type your code here.
+	
+	ans_1=
+	
+	ans_2=
+	
+	
+	print("count of a is: ", ans_1, " count of o is: ", ans_2)
+	
+\end{lstlisting}
+
+	\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Wypisz długość napisu ze zmiennej napis.
+\begin{lstlisting}
+	napis="1.975.000"
+	
+	#  Type your code here:
+	
+	ans_1=
+	
+	
+	print(ans_1)
+	
+\end{lstlisting}
+
+\medskip
+\begin{Large}
+	\textbf{Cięcie(Slicing)}
+\end{Large}
+
+\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+
+a) Przekrój słowo ze zmiennej wrd do pierwszego wystąpienia litery "a" (Tosc).
+\par
+b) Przekrój słowo wrd tak aby otrzymać "cana".
+\par
+c) Przekrój wrd tak aby otrzymać napis "can".
+\par
+d) Przekrój słowo wrd tak aby otrzymać co drugi znak.
+\par
+e) Przekrój słowo wrd tak aby otrzymać co drugi znak bez pierwszego i ostatniego znaku.
+\par
+f) Czy możesz przeciąć słowo wrd tak aby było w odwrotnej kolejności bez używania metody reverse?(anacsoT)
+\begin{lstlisting}
+	wrd="Toscana"
+	#Type your answer here.
+	
+	ans_1=
+	
+	
+	print(ans_1)
+\end{lstlisting}
+
+
+
+
+
+
+\medskip
+\begin{Large}
+	\textbf{Struktury danych}
+\end{Large}
+
+	\item
+	\begin{Large}
+		Zadanie 10.
+	\end{Large} 
+	\par
+	a) Stwórz pustą listę oraz wypisz jej typ.
+	\begin{lstlisting}[language=Python]
+	gift_list=
+	
+	answer_1=
+	
+	
+	print(answer_1)
+	
+	\end{lstlisting}
+\par
+b) Stwórz pusty słownik oraz wypisz jego typ.
+
+	\begin{lstlisting}[language=Python]
+		#Create an empty dictionary on line 3 and assign its type on line 4
+		
+		grocery_items=
+		
+		answer_2=
+		
+		
+		print(answer_2)
+	\end{lstlisting}
+\par
+c) Stwórz pustą krotkę oraz wypisz jej typ.
+
+\begin{lstlisting}[language=Python]
+	#Create an empty tuple on line 3 and assign its type on line 4
+	
+	bucket_list=
+	
+	answer_2=
+	
+	
+	print(answer_2)
+\end{lstlisting}
+
+	\item 
+	\begin{Large}
+		Zadanie 11.
+	\end{Large}
+	\par
+	a) Stwórz listę z wartościami oraz ja wypisz.
+	\par
+	b) Stwórz słownik z wartościami oraz go wypisz.
+	\par
+	c) Stwórz krotke z wartościami oraz ja wypisz.
+	
+	\medskip
+	\begin{Large}
+		\textbf{Listy}
+	\end{Large}
+	\item 
+	\begin{Large}
+		Zadanie 12.
+	\end{Large}
+	\par
+	Przypisz pierwszy element z listy do zmiennej answer\_1.
+	\begin{lstlisting}[language=Python]
+		lst=[11, 100, 99, 1000, 999]
+		answer_1=
+		
+		print(answer_1)
+	\end{lstlisting}
+	
+	\item 
+	\begin{Large}
+		Zadanie 13.
+	\end{Large}
+	\par
+	Wypisz drugi element listy bezpośrednio w funkcji print.
+	\begin{lstlisting}
+		lst=[11, 100, 101, 999, 1001]
+		
+		print()
+		
+	\end{lstlisting}
+	
+	\item 
+	\begin{Large}
+		Zadanie 14.
+	\end{Large}
+	\par
+	Przypisz ostatni element listy do zmiennej answer\_1.
+	\begin{lstlisting}
+		lst=[11, 100, 101, 999, 1001]
+		#Type your answer here.
+		
+		answer_1=
+		
+		print(answer_1)
+	\end{lstlisting}
+
+	\item
+	\begin{Large}
+		Zadanie
+	\end{Large}
+	\par
+	Metoda .append pozwala dodawać elementy do listy.
+	Dodaj do listy napis "pajamas" za pomocą metody append. 
+	\begin{lstlisting}
+		gift_list=['socks', '4K drone', 'wine', 'jam']
+		# Type your code here.
+		
+		
+		
+		print(gift_list)
+	\end{lstlisting}
+
+	\item
+	\begin{Large}
+		Zadanie 15.
+	\end{Large}
+	\par
+	W listach może znajdować się wiele różnych typów danych, możesz nawet dodać nową liste jako element list. Nazywane to jest zagnieżdżaniem danych.
+	\par
+	W 3 linii dodaj liste  ["socks", "tshirt", "pajamas"] na koniec listy gift\_list.
+	\begin{lstlisting}
+		gift_list=['socks', '4K drone', 'wine', 'jam']
+		# Type your code here.
+		
+		
+		
+		print(gift_list)
+	\end{lstlisting}
+
+	\item
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Metoda .insert() pozwala wstawić element w konkretnym miejscu listy(na konkretnym indeksie).
+\par
+Za pomocą metody .insert() dodaj napis "slippers" na 3 miejscu listy.
+\begin{lstlisting}
+gift_list=['socks', '4K drone', 'wine', 'jam']
+# Type your code here.
+
+
+
+print(gift_list)
+\end{lstlisting}
+
+	\item
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Przy pomocy metody .index() można znaleźć numer indeksu na którym znajduje się dany element.
+\par
+Do zmiennej answer\_1 przypisz numer indeksu na ktorym znajduje się wartość 8679.
+\begin{lstlisting}	
+	lst=[55, 777, 54, 6, 76, 101, 1, 2, 8679, 123, 99]
+	#  Type your code here.
+	
+	answer_1=
+	
+	print(answer_1)
+\end{lstlisting}
+
+	\item
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Używając metody remove usuń ostatni element z listy.
+\begin{lstlisting}	
+	lst=[55, 777, 54, 6, 76, 101, 1, 2, 8679, 123, 99]
+	#  Type your code here.
+	
+	lst.remove(99)
+	
+	
+	print(lst)
+\end{lstlisting}
+
+	\item
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Używając metody .reverse() odwróć kolejność elementów w liscie.
+\begin{lstlisting}	
+lst=[55, 777, 54, 6, 76, 101, 1, 2, 8679, 123, 99]
+#  Type your code here.
+
+
+
+print(lst)
+\end{lstlisting}
+
+	\item
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Używając metody .count() sprawdź ile razy 6 występuje w liście.
+\begin{lstlisting}	
+	lst=[55, 6, 777, 54, 6, 76, 101, 1, 6, 2, 6]
+	#  Type your code inside print() function.
+	
+	answer_1=
+	
+	print(answer_1)
+	
+\end{lstlisting}
+
+
+	\item
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Wypisz sume wszystkich elementów z listy lst.
+\begin{lstlisting}	
+	lst=[55, 6, 777, 54, 6, 76, 101, 1, 6, 2, 6]
+	
+	#  Type your code on line 4:
+	answer_1=
+	
+	print(answer_1)
+	
+	
+\end{lstlisting}
+
+
+	\item
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+a)Znajdź najmniejszy element listy.
+\par
+b)znajdź największy element listy
+\begin{lstlisting}	
+	lst=[55, 6, 777, 54, 6, 76, 101, 1, 6, 2, 6]
+	
+	#  Type your code on line 4:
+	answer_1=
+	
+	print(answer_1)
+	
+	
+\end{lstlisting}
+
+
+		
+
+\medskip
+\begin{Large}
+	\textbf{Krotki}
+\end{Large}
+
+\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+ \par 
+ Wykonaj zadania 29 - 40  zamieniając listy na krotki.
+ 
+ \medskip
+ \begin{Large}
+ 	\textbf{Słowniki}
+ \end{Large}
+ 
+ \item\begin{Large}
+ 	Zadanie
+ \end{Large}
+	\par
+	Słowniki nie mają indeksów wiec odnoszenie sie do pierwszego lub ostatniego elementu nie jest poprawne. Zamiast tego słowniki posiadają klucze a my możemy używać kluczy do pozyskiwania z nich wartości.
+	\par
+	a) kiedy urodził sie Plato?
+	\par
+	b) Zmień date urodzenia Plato z  B.C. 427 na B.C. 428.
+	
+	\begin{lstlisting}
+		dict={"name": "Plato", "country": "Ancient Greece", "born": -427, "teacher": "Socrates", "student": "Aristotle"}
+		answer_1=
+		
+		print(answer_1)
+	\end{lstlisting}
+
+	\item
+	\begin{Large}
+		Zadanie
+	\end{Large}
+	\par
+	Słowniki także mogą zawierać zagnieżdżone dane. Dodaj do słownika klucz "work" z poniższą listą.\\
+	"work": ["Apology", "Phaedo", "Republic", "Symposium"]
+	\begin{lstlisting}
+		dict={"name": "Plato", "country": "Ancient Greece", "born": -427, "teacher": "Socrates", "student": "Aristotle"}
+		
+		#Type your answer below.
+		
+		
+		print(dict)
+	\end{lstlisting}
+
+	\item 
+	\begin{Large}
+		Zadanie
+	\end{Large}
+	\par
+	Dodaj 2 do wartości "son's height".
+	\begin{lstlisting}
+		dict={"son's name": "Lucas", "son's eyes": "green", "son's height": 32, "son's weight": 25}
+		
+		#Type your answer below.
+		
+		
+		print(dict)
+		
+	\end{lstlisting}
+
+	\item 
+	\begin{Large}
+		Zadanie
+	\end{Large}
+	\par
+	Przy pomocy metody .items() wygeneruj liste krotek gdzie w kazdej krotce bedzie klucz i wartość.
+	\begin{lstlisting}
+		dict={"son's name": "Lucas", "son's eyes": "green", "son's height": 32, "son's weight": 25}
+		
+		#Type your answer below.
+		ans_1= dict.items()
+		
+		print(ans_1)
+		
+	\end{lstlisting}
+ 
+ 	\item 
+ 	\begin{Large}
+ 		Zadanie
+ 	\end{Large}
+ 	\par
+ 	Zapoznaj sie z metodą .get() i wykonaj następujące zadania:
+ 	\par
+ 	a) wypisz wartość dla klucza "son's eyes"
+ 	\par
+ 	b) Spróbuj odczytać wartośc dla klucza  "son's age" a jeżeli klucz nie istnieje zwróć wartość "2"
+ 	
+ 	\begin{lstlisting}
+ 		dict = {"son's name": "Lucas", "son's eye color": "green", "son's height": 32, "son's weight": 25}
+ 		
+ 		#Type your answer inside the print.
+ 		ans_1=
+ 		
+ 		print (ans_1)
+ 	\end{lstlisting}
+ 
+ \item 
+ \begin{Large}
+ 	Zadanie
+ \end{Large}
+	\par
+	Metoda .clear() służy do czyszczenia słownika. Wypróbuj ją.
+	\begin{lstlisting}
+		dict={"son's name": "Lucas", "son's eye color": "green", "son's height": 32, "son's weight": 25}
+		
+		#clear the dictionary here then print it.
+		
+		
+		print(dict)
+	\end{lstlisting}
+	
+	\item 
+	\begin{Large}
+		Zadanie
+	\end{Large}
+	\par
+	 Za pomocą funkcji len() sprawdź ile kluczy znajduje sie w słowniku.
+	 \begin{lstlisting}
+	 	dict={"son's name": "Lucas", "son's eye color": "green", "son's height": 32, "son's weight": 25}
+	 	
+	 	#Write your answer here.
+	 	ans_1=
+	 	
+	 	print(ans_1)
+	 \end{lstlisting}
+ 
+ \medskip
+ \begin{Large}
+ 	\textbf{Wprowadzanie danych}
+ \end{Large}
+	\item 
+	\begin{Large}
+		Zadanie
+	\end{Large}
+	\par
+	Używając funkcji input() poproś użytkownika o imię.
+	
+	\begin{lstlisting}
+		#Type your answer here.
+		
+		ans_1=
+		
+		print("Hello!, " + ans_1)
+	\end{lstlisting}
+
+	\item 
+	\begin{Large}
+		Zadanie
+	\end{Large}
+	\par
+	Poproś użytkownika o dane numeryczne np. wiek.
+	\begin{lstlisting}
+		#Type your code here.
+		ans_1=
+		
+		
+		print(type(ans_1))
+	\end{lstlisting}
+	
+	\item 
+	\begin{Large}
+		Zadanie
+	\end{Large}
+	\par
+	Poproś użytkownika o wpisanie obecnego roku i wypisz rok za 50 lat.
+	
+	\item 
+	\begin{Large}
+		Zadanie
+	\end{Large}
+	\par
+	Stwórz konwerter który zapyta o ilość dni i przekonwertuje je na lata.
+	\\ załóżmy, że rok ma zawsze 365 dni.
+	\begin{lstlisting}
+		# Type your answer here.
+		
+		message=
+		
+		result=
+		
+		
+		print(result)
+	\end{lstlisting}
+
+\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Stwórz konwerter który przeliczy mile na kilometry.
+\\ załóżmy, że rok ma zawsze 365 dni.
+\begin{lstlisting}
+	# Type your answer here.
+	
+	message=
+	
+	result=
+	
+	
+	print(result)
+\end{lstlisting}
+
+\medskip
+\begin{Large}
+	\textbf{Instrukcje sterujące}
+\end{Large}
+
+\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Napisz program ktory przyjmie od użytkownika imię i jeżeli bedzie to "Bond" to wypisze w konsoli "Welcome on board 007."  w przeciwnym wypadku wypisze "Good morning NAME"(NAME zamień na wprowadzone imie.)
+
+\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Napisz program który sprawdzi czy wprowadzona liczba jest parzysta. i Jeżeli jest wypisze "Parzysta" w przeciwnym wypadku wypisze "nieparzysta".
+
+\medskip
+\begin{Large}
+	\textbf{Pętle}
+\end{Large}
+
+\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Napisz pętle while która doda do siebie wszystkie liczby od 0 do 100 włącznie.
+\begin{lstlisting}
+	counter=0
+	total=0
+	
+	#Construct your while loop here.
+	
+	
+	
+	
+	
+	print(total)
+\end{lstlisting}
+
+\item\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Używając pętli while, funkcji len(), oraz instrukcji warunkowej sprawdź czy w danej liście znajduje się wartość 100 jezeli tak to przypisz do zmiennej my\_message wiadomość na jakim indeksie sie znajduje np. "There is a 100 at index no: 5".
+\begin{lstlisting}
+	lst=[10, 99, 98, 85, 45, 59, 65, 66, 76, 12, 35, 13, 100, 80, 95]
+	
+	my_message=""
+	
+	#Type your code here.
+	
+	
+	
+	
+	print(my_message)
+\end{lstlisting}
+
+\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Używając pętli whiel i instrukcji warunkowych napisz program który stworzy nową listę napisów bez napisów pustych "".
+\begin{lstlisting}
+	lst1=["Joe", "Sarah", "Mike", "Jess", "", "Matt", "", "Greg"]
+	
+	
+	#Type your code here.
+	
+	
+	
+	
+	
+	
+	
+	print(name_adder(lst1))
+	
+\end{lstlisting}
+
+\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+używając pętli for stwórz program który wypisze każdy element z listy w osobnym wierszu.
+
+\begin{lstlisting}
+	
+	lst=["koala", "cat", "fox", "panda", "chipmunk", "sloth", "penguin", "dolphin"]
+	#Type your answer here.
+	
+\end{lstlisting}
+
+\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+używając pętli for stwórz program który wypisze tekst "Hello!,"  + każde imie z listy tj. "Hello!, Sam"
+
+\begin{lstlisting}
+	
+lst=["Sam", "Lisa", "Micha", "Dave", "Wyatt", "Emma", "Sage"]
+#Type your code here.
+	
+\end{lstlisting}
+
+\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Stwórz licznik do którego w każdym obiegu pętli będziesz dodawać 1. Czy wiesz ile razy wykona się pętla?
+\begin{lstlisting}
+	str="Civilization"
+	
+	c=0
+	for i in str:
+	#Type your answer here.    
+	
+	
+	print(c)
+	
+\end{lstlisting}
+
+\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Używając pętli for oraz metody .append() dodaj przedrostek Dr. d każdego elementu lst1.
+\begin{lstlisting}
+	lst1=["Phil", "Oz", "Seuss", "Dre"]
+	lst2=[]
+	#Type your answer here.
+	
+	
+	
+	
+	print(lst2)
+\end{lstlisting}
+
+\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Używając pętli for oraz metody .append() do listy lst2 dodaj kwadrat każdego elementu z lst1.
+\begin{lstlisting}
+	lst1=[3, 7, 6, 8, 9, 11, 15, 25]
+	lst2=[]
+	#Type your answer here.
+	
+	
+	
+	print(lst2)
+\end{lstlisting}
+
+\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Używając pętli for napisz program który do listy lst2 doda tylko dodatnie liczby z listy lst1.
+\begin{lstlisting}
+	lst1=[111, 32, -9, -45, -17, 9, 85, -10]
+	lst2=[]
+	#Type your answer here.
+	
+	
+	
+	print(lst2)
+\end{lstlisting}
+
+\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Używając pętli for napisz program który, do listy lst doda wartość ze słownika dict -1000, jeżeli wartość w słowniku jest większa od 1000, np jeżeli wartość w słowniku jest równa 1500 to do listy powinien zostać dodany element 500.
+\begin{lstlisting}
+	dict={"z1":900, "t1": 1100, "p1": 2300, "r1": 1050, "k1": 3200, "g1": 400}
+	lst=[]
+	#Type your answer here.
+	
+	
+	
+	print(lst)
+\end{lstlisting}
+
+\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Napisz program który do listy lst2 dooda typ dla każdego elementu z listy lst1. np. lst1 = ["hi",1] to lst2 = [type str, type int]
+
+\begin{lstlisting}
+	lst1 = [3.14,66,"Teddy Bear",True,[],{}]
+	lst2=[]
+	#Type your answer here.
+	
+	
+	
+	print(lst2)
+	
+\end{lstlisting}
+\medskip
+\begin{Large}
+	\textbf{List Comprehension}
+\end{Large}
+\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Stwórz identyczna listę przy pomocy list comprehension. czyli lst1 powinna byc taka sama jak lst2
+\begin{lstlisting}
+	lst1=[1,2,3,4,5]
+	
+	#Type your answer here.
+	
+	lst2=
+	
+	print(lst2)
+\end{lstlisting}
+
+\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Stwórz listę z elementów od 1200 do 2000 z krokiem 130 używając list comprehension.
+\begin{lstlisting}
+	#Type your answer here.
+	
+	rng=
+	
+	lst=[]
+	
+	print(lst)
+	
+\end{lstlisting}
+
+\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Użyj list comprehension aby stworzyć nową liste ale dodaj 6 do kazdego elementu listy lst1, np. lst1 = [1,2,3] lst2= [7,8,9] 
+\begin{lstlisting}
+
+#Type your answer here.
+
+lst1=[44,54,64,74,104]
+
+lst2=[]
+
+
+print(lst2)
+	
+\end{lstlisting}
+
+\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Użyj list comprehension aby stworzyć nową liste z kwadratów każdego elementu listy lst1 ale tylko jeżeli jest on większy od 50.np. lst1 =[1,2,10] to lst2 = [100]
+\begin{lstlisting}
+	
+	lst1=[2, 4, 6, 8, 10, 12, 14]
+	
+	#Type your answer here.
+	
+	lst2=[]
+	
+	
+	print(lst2)
+	
+\end{lstlisting}
+
+\item 
+\begin{Large}
+	Zadanie(bonus)
+\end{Large}
+\par
+Mamy słownik w którym kluczem są typy pojazdów a wartością ich waga. Stwórz listę pojazdów których waga jest mniejsza od 5000 kg, a także ich nazwy będą w liście w wielkich liter.
+\begin{lstlisting}
+	dict={"Sedan": 1500, "SUV": 2000, "Pickup": 2500, "Minivan": 1600, "Van": 2400, "Semi": 13600, "Bicycle": 7, "Motorcycle": 110}
+	
+	#Type your answer here.
+	
+	lst=[]
+	
+	print(lst)
+\end{lstlisting}
+
+\medskip
+\begin{Large}
+	Mini projekty
+\end{Large}
+
+\medskip
+\begin{Large}
+	Funkcje
+\end{Large}
+
+
+\medskip
+\begin{Large}
+	Moduły
+\end{Large}
+
+\medskip
+\begin{Large}
+	Programowanie obiektowe
+\end{Large}
+
+\end{enumerate}
+	
+	
+\end{document}

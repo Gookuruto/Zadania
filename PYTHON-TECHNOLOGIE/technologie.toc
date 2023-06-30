@@ -1,0 +1,5 @@
+\beamer@sectionintoc {1}{Interpretacja kodu}{3}{0}{1}
+\beamer@sectionintoc {2}{Moduły i pakiety}{5}{0}{2}
+\beamer@sectionintoc {3}{PIP}{7}{0}{3}
+\beamer@sectionintoc {4}{Wirtualne środowiska}{9}{0}{4}
+\beamer@sectionintoc {5}{PyPI}{11}{0}{5}
