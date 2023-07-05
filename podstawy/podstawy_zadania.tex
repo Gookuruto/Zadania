@@ -2,6 +2,7 @@
 \usepackage[T1]{fontenc}
 \usepackage[polish]{babel}
 \usepackage{amsmath}
+\usepackage{hyperref}
 %\usepackage{amssymb}
 %\topmargin -2cm
 %\textheight 23cm
@@ -1308,6 +1309,51 @@ Mamy słownik w którym kluczem są typy pojazdów a wartością ich waga. Stwó
 \begin{Large}
 	Mini projekty
 \end{Large}
+
+\item 
+\begin{Large}
+	Wisielec
+\end{Large}
+\par
+a) stwórz zmienną na słowa z których program będzie mógł wybrać jedno (na początku możne to być stałe jedno słowo)
+\par
+b) stwórz zmienną która będzie przechowywała liczbę szans np. 5 po 5 niepoprawnych zgadnięciach litery gra się kończy.
+\par
+c) stwórz główną pętle gry która będzie działała tak długo az liczba szans się nie wyczerpie lub słowo nie zostanie w pełni odkryte.
+\par
+d) wewnątrz pętli poproś o podanie litery, sprawdź czy litera znajduje sie w słowie i wypisz miejsca w których sie znajduje np. "\_\_\_a\_\_\_a\_\_\_" jeżeli sie nie znajduje zmniejsz liczbę szans o 1, na końcu sprawdź czy słowo nie jest kompletne i jeżeli jest to zakończ grę.
+
+\item 
+\begin{Large}
+	Kółko i krzyżyk
+\end{Large}
+\par
+a) Stwórz zmienna(liste) która będzie przechowywac dane dla każdej komórki planszy czyli o,x lub pusty napis. A także stwórz zmienną która będzie przechowywać symbol obecnego gracza o lub x
+\par
+b) narysuj pustą plansze do gry w konsoli za pomocą funkcji print.
+\par
+c) Stwórz główną pętle gry, która będzie działała az jeden z graczy nie wygra lub nie skończy się miejsce na planszy(remis).
+\par
+d) w pętli poproś gracza o wpisanie pozycji w której chce wstawic swój symbol. wstaw symbol w odpowiednie miejsce listy. następnie wyrysuj plansze z naniesionymi znakami. sprawdź czy gracz nie wygrał lub nie skonczyło sie miejsce na planszy. i zmień gracza.
+\par
+e)poinformuj o zwycięstwie lub remisie i zakończ pętle
+
+\item 
+\begin{Large}
+	Konsolowa symulacja bazy danych (np. baza wydatków, baza studentów z ocenami itp.)
+\end{Large}
+\par
+a) stwórz kolekcie która będzie imitować bazę danych wybierz która będzie ci najbardziej pasować.(lista, słownik, krotka?, zbiór?)
+\par
+b) Stwórz petle w której zapytasz użytkownika co chce zrobic.np, dodac nowy wpis, usunąc wpis, edytowac wpis itp.
+\par
+c) następnie w zależność od wcześniejszego wyboru zapytasz o dane do wpisania lub o wiersz do usunięcia lub zmiany.(jak będzie to wyglądać zależy jakiego typu kolekcje wybierzecie.)
+\par
+d) po wykonaniu operacji powinniśmy wrócić do 1 menu.
+\par
+e) umożliwcie także wyjście z wszego programu przez użytkownika np poprzez wpisanie exit lub odpowiedniego wyboru z opcji w 1 menu.
+\par
+Bonus można przed samym zamknięciem zapisać baze do pliku. (tego jescze nie było na zajeciach) jak ktos by bardzo chcial to zrobic to tutaj jest link jak otwierać pliki i do nich pisać w pythonie: \href{http://davinci.mimuw.edu.pl/samouczek-python-python/operacje-na-plikach}{Operacje na plikach}
 
 \medskip
 \begin{Large}
