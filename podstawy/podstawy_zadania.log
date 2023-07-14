@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.5)  5 JUL 2023 09:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.5)  14 JUL 2023 08:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -362,6 +362,7 @@ LaTeX Font Info:    ... okay on input line 36.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
 Package hyperref Info: Link coloring OFF on input line 36.
+ (./podstawy_zadania.out) (./podstawy_zadania.out)
 \@outlinefile=\write3
 \openout3 = `podstawy_zadania.out'.
 
@@ -435,36 +436,53 @@ LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <8> not available
 
 {c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5]
  [6] [7] [8] [9]
-[10] [11] [12] [13] [14] (./podstawy_zadania.aux)
+[10] [11] [12] [13] [14] [15]
+! You can't use `macro parameter character #' in horizontal mode.
+<argument> ...brary/random.html?highlight=random##
+                                                  module-random
+l.1561 ...dom.html?highlight=random#module-random}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
 
-Package rerunfilecheck Warning: File `podstawy_zadania.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
 
-Package rerunfilecheck Info: Checksums for `podstawy_zadania.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Underfull \hbox (badness 10000) in paragraph at lines 1568--1573
+
+ []
+
+[16] [17]
+Underfull \hbox (badness 10000) in paragraph at lines 1709--1716
+
+ []
+
+[18] (./podstawy_zadania.aux)
+Package rerunfilecheck Info: File `podstawy_zadania.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 13406 strings out of 474971
- 204345 string characters out of 5780121
+ 13585 strings out of 474971
+ 206789 string characters out of 5780121
  1022041 words of memory out of 5000000
- 34166 multiletter control sequences out of 15000+600000
- 478205 words of font info for 49 fonts, out of 8000000 for 9000
+ 34192 multiletter control sequences out of 15000+600000
+ 479045 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,6n,77p,344b,2146s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,6n,77p,346b,2146s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/texl
-ive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2022/t
-exmf-dist/fonts/type1/public/cm-super/sfit0800.pfb><c:/texlive/2022/texmf-dist/
-fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2022/texmf-dist/fonts/type
-1/public/cm-super/sfrm1095.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/c
-m-super/sfrm1200.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sf
-rm1440.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb
-><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb>
-Output written on podstawy_zadania.pdf (14 pages, 224778 bytes).
+ive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2022/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist
+/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2022/texmf-dist/fonts/typ
+e1/public/cm-super/sfit0800.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/
+cm-super/sfrm0800.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/s
+frm1095.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pf
+b><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texl
+ive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2022/t
+exmf-dist/fonts/type1/public/cm-super/sftt0800.pfb>
+Output written on podstawy_zadania.pdf (18 pages, 260561 bytes).
 PDF statistics:
- 822 PDF objects out of 1000 (max. 8388607)
- 782 compressed objects within 8 object streams
- 600 named destinations out of 1000 (max. 500000)
+ 1027 PDF objects out of 1200 (max. 8388607)
+ 977 compressed objects within 10 object streams
+ 749 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

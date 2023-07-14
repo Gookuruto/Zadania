@@ -1353,25 +1353,366 @@ d) po wykonaniu operacji powinniśmy wrócić do 1 menu.
 \par
 e) umożliwcie także wyjście z wszego programu przez użytkownika np poprzez wpisanie exit lub odpowiedniego wyboru z opcji w 1 menu.
 \par
-Bonus można przed samym zamknięciem zapisać baze do pliku. (tego jescze nie było na zajeciach) jak ktos by bardzo chcial to zrobic to tutaj jest link jak otwierać pliki i do nich pisać w pythonie: \href{http://davinci.mimuw.edu.pl/samouczek-python-python/operacje-na-plikach}{Operacje na plikach}
+Bonus można przed samym zamknięciem zapisać baze do pliku. (tego jeszcze nie było na zajęciach) jak ktos by bardzo chcial to zrobic to tutaj jest link jak otwierać pliki i do nich pisać w pythonie: \href{http://davinci.mimuw.edu.pl/samouczek-python-python/operacje-na-plikach}{Operacje na plikach}
 
 \medskip
 \begin{Large}
 	Funkcje
 \end{Large}
+\par
+\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Zdefiniuj funkcje f\_1 która wypisze tekst "Hello world!".
+\begin{lstlisting}
+	def f_1():
+	
+		
+	f_1()
+\end{lstlisting}
 
+\par
+\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Zdefiniuj funkcje f\_1 która wypisze tekst "Hello world!". a następnie przypisz jej wynik do zmiennej ans\_1.
+\begin{lstlisting}
+	def f_1():
+	print("Hello World!")
+	
+		
+	ans_1=
+	print(ans_1)
+\end{lstlisting}
+
+\par
+\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Zdefiniuj funkcje f\_1 która zwróci tekst "Hello world!". a następnie przypisz jej wynik do zmiennej ans\_1.
+\begin{lstlisting}
+	def f_1():
+	
+	
+	ans_1=f_1()
+	print(ans_1)
+\end{lstlisting}
+
+\par
+\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Zdefiniuj funkcje f\_1 która wypisze i zwróci tekst "Hello world!". a następnie przypisz jej wynik do zmiennej ans\_1.
+\begin{lstlisting}
+	def f_1():
+	
+	
+	ans_1=f_1()
+	print(ans_1)
+\end{lstlisting}
+
+\par
+\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Zdefiniuj funkcje f\_1 która zawsze zwroci wartość 100.
+\begin{lstlisting}
+	# Type your answer here.
+	
+	
+	
+	
+	
+	print(f_1(999))
+\end{lstlisting}
+
+
+\par
+\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Zdefiniuj funkcje f\_1 która pryzmie wartość liczbowa jako parametr a następnie ja zwróci.
+\begin{lstlisting}
+# Type your answer here.
+
+
+
+
+
+print(f_1(44))
+\end{lstlisting}
+
+\par
+\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Zdefiniuj funkcje f\_1 która przyjmie listę jako parametr oraz zwróci tą listę w odwrotnej kolejności.
+\begin{lstlisting}
+	lst=[100,200,300,400,500]
+	
+	
+	
+	
+	
+	
+	f_1(lst)
+	print(lst)
+\end{lstlisting}
+
+\par
+\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Zdefiniuj funkcje f\_1 która zapyta użytkownika o imie i wypisze tekst "Hello {name}".
+\begin{lstlisting}
+	# Type your answer here.
+	
+	
+	
+	f_1()
+	
+\end{lstlisting}
+
+
+\par
+\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Zdefiniuj 2 funkcje f\_1 oraz f\_2. pierwsza funkcja przyjmuje liczbę jako parametr i zwraca ta liczbę+5. Druga funkcja przyjmie liczbę jako parametr i zwróci wynik f\_1 pomnożony przez 2.
+\begin{lstlisting}
+	# Type your answer here.
+	
+	
+	
+	print(f_2(4))
+	
+\end{lstlisting}
 
 \medskip
 \begin{Large}
 	Moduły
 \end{Large}
+\par
+
+\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Napisz prosty program ktory wygeneruje:
+\par
+a) losoowy ciag alfabetyczny znaków (zobacz tablice ascii),
+\par
+b) losowa liczbe z danego przedziału
+\par
+c)losową wielokrotność liczby 7 z zakresu 0-70.
+\par
+uzyj random.randint(), random.choice(),
+do losowej litery można tez użyć modułu string
+
+\item 
+\begin{Large}
+	Zadannie
+\end{Large}
+\par
+Napisz program który przetasuje elementy z danej listy.
+\begin{lstlisting}
+	import random
+	
+	numbers = [1, 2, 3, 4, 5]
+	words = ['red', 'black', 'green', 'blue']
+	
+	print(numbers)
+	print(words)
+	
+	print("Shuffle")
+	#Your code here
+	
+	print(numbers)
+	print(words)
+\end{lstlisting}
+
+\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Napisz program w języku Python, który utworzy listę 100 losowych liczb całkowitych i losowo wybierze 10 elementów z tej listy.
+uzyj funkcji random.sample()
+\par
+\href{https://docs.python.org/3/library/random.html?highlight=random#module-random}{https://docs.python.org/3/library/random.html?highlight=random#module-random}
+
+\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Zamien podany string na obiekt typu datetime np.\\
+wejscie:\\
+date\_string = "Feb 25 2020 4:20PM"\\
+wyjscie:\\
+2020-02-25 16:20:00\\
+
+\href{https://docs.python.org/3/library/datetime.html?highlight=strptime#datetime.datetime.strptime}{dokumentacja}
+
+\begin{lstlisting}
+	from datetime import datetime
+	
+	date_string = "Feb 25 2020 4:20PM"
+	
+	datetime_object = 
+	
+	print(type(datetime_object))
+	print(datetime_object)
+\end{lstlisting}
+
+\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Napisz program który odejmie tydzien od danej daty.\\
+Wejscie:\\
+given\_date = datetime(2020, 2, 25)\\
+Wyjscie:\\
+2020-02-18\\
+przydatny moze okazac sie obiekt timedelta z modulu datetime.
+
+\begin{lstlisting}
+	from datetime import datetime, timedelta
+	
+	given_date = datetime(2020, 2, 25)
+	print("Given date")
+	print(given_date)
+	
+	days_to_subtract = 7
+	res_date = 
+	print("New Date")
+	print(res_date)
+\end{lstlisting}
+
 
 \medskip
 \begin{Large}
 	Programowanie obiektowe
 \end{Large}
 
+\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Stworz pusta klase Vehicle
+
+\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Do klasy vehicle dodaj atrybuty max\_speed oraz mileage(przebieg)
+
+\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Stworz klase pochodna od Vehicle ktora bedzie nazywac sie Bus i bedzie posiadać wszystkie pola z Vehicle.
+
+\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Dodaj do klasy Vehicle metode seating\_capacity a następnie w klasie Bus spraw aby metoda seating\_capacity miala domyślna wartość 50
+
+
+\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Zdefiniuj atrybut klasowy „color” z domyślną wartością White. Oznacza to, że każdy Vehicle powinien być biały.
+
+\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Utworz Klase pochodna Bus dziedzicząca po klasie Vehicle. z metoda wyliczajacą opłate(fare) dla klasy Bus powinno to byc
+\[final amount = total fare + 10\%\] of the total fare. uzyj ponizszej klasy Vehicle:
+\begin{lstlisting}
+class Vehicle:
+	def __init__(self, name, mileage, capacity):
+		self.name = name
+		self.mileage = mileage
+		self.capacity = capacity
+
+	def fare(self):
+		return self.capacity * 100
+
+class Bus(Vehicle):
+	pass
+
+School_bus = Bus("School Volvo", 12, 50)
+print("Total Bus fare is:", School_bus.fare())
+\end{lstlisting}
+
+\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Sprawdz jakiego typu jest zmienna School\_bus:
+\begin{lstlisting}
+class Vehicle:
+	def __init__(self, name, mileage, capacity):
+		self.name = name
+		self.mileage = mileage
+		self.capacity = capacity
+	
+class Bus(Vehicle):
+	pass
+	
+School_bus = Bus("School Volvo", 12, 50)
+\end{lstlisting}
+
+\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Sprawdź czy School\_bus jest także instancją klasy Vehicle.
+
+\item 
+\begin{Large}
+	Zadanie
+\end{Large}
+\par
+Mini projekt:\\
+-Stwórz klase dla kart do gry.\\
+-Klasa karty powinna mieć kolor (kiery, karo, trefl, pik) i wartość (A,2,3,4,5,6,7,8,9,10,J,Q,K)\\
+-Stwórz klase Talii ktora zawiera 52 karty\\
+-posiada metode deal ktora wyciaga karte z talii\\
+-po wyjeciu karty z talii karta powinna zostac z niej usunięta\\
+-posiada metode shuffle która upewnia się, że talia kart zawiera wszystkie 52 karty, a następnie losowo je przestawia.\\
+	
 \end{enumerate}
-	
-	
 \end{document}
